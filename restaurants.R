@@ -48,4 +48,4 @@ mongo.count(mongo,"test.restaurants")
 mongo.count(mongo,"test.restaurantsM")
 # returns 25359, which is the right answer
 
-#okay, so no importing with R
+#okay, so no importing with Rd

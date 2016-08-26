@@ -1,4 +1,4 @@
-#Installing rmongoDB
+#Installing rmongodb
 #may need to install following if no curl:
 ##* deb: libcurl4-openssl-dev (Debian, Ubuntu, etc)
 ##* rpm: libcurl-devel (Fedora, CentOS, RHEL)
