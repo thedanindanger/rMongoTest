@@ -1,3 +1,14 @@
 Git repo of my test script for accessing trial mongoDB data via R
 
 Will update with links from Mongo tutorial throughout progress.
+
+A great deal of the code was from tutorial found here: https://gist.github.com/Btibert3/7751989
+
+Also using MongoDBs tutorial from Python here to find data sets: https://docs.mongodb.com/getting-started/python/import-data/
+
+
+Restaurants.R #importing data
+
+This file is testing the import mechanisms of rmongodb. I might be doing something wrong, but even if they did work, it's inefficient to bring data through R since it has to be completely loaded into memory.  I guess it has its purpose for line by line injection, but bulk uploads can be handled via native mongo.
+
+
